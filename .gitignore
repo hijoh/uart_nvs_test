@@ -1,0 +1,13 @@
+build/
+# 忽略GCC编译器生成的文件
+*.o
+*.ko
+*.obj
+*.elf
+*.swp
+*.swo
+*.exe
+
+# 忽略以sdkconfig开头的文件
+sdkconfig
+sdkconfig.*
